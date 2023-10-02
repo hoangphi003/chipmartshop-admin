@@ -1,0 +1,15 @@
+
+.head-seach-form {
+  position: relative;
+}
+.seach-icon-form {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 20px;
+  padding: 8px;
+}
+
+.navbar-nav .dropdown-menu{
+  min-width: 170px;
+}
