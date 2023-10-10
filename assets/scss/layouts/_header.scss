@@ -67,7 +67,7 @@
 }
 
 .nav-icon-hover {
-  transition: all 0.3s ease-in-out;
+  transition: all .3s ease-in-out;
 
   &:hover {
     &::before {
@@ -80,7 +80,7 @@
       width: 40px;
       z-index: -1;
       border-radius: 100px;
-      transition: all 0.3s ease-in-out;
+      transition: all .3s ease-in-out;
       background-color: $light-primary;
     }
   }
@@ -93,6 +93,7 @@
   .dropdown-item {
     border-radius: 8px;
   }
+
 }
 
 .notification {
@@ -168,11 +169,10 @@
 }
 
 .dropdown-menu-animate-up {
-  -webkit-animation: animation-dropdown-menu-fade-in 0.5s ease 1,
-    animation-dropdown-menu-move-up 0.5s ease-out 1;
-  animation: animation-dropdown-menu-fade-in 0.5s ease 1,
-    animation-dropdown-menu-move-up 0.5s ease-out 1;
+  -webkit-animation: animation-dropdown-menu-fade-in 0.5s ease 1, animation-dropdown-menu-move-up 0.5s ease-out 1;
+  animation: animation-dropdown-menu-fade-in 0.5s ease 1, animation-dropdown-menu-move-up 0.5s ease-out 1;
 }
+
 
 @keyframes fadeInUp {
   from {
